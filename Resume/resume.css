@@ -1,0 +1,133 @@
+body {
+    background-color: #E7ECEF;
+    font-family: 'Roboto';
+    color: #274C77;
+    font-size: 18px;
+}
+    
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #6096BA;
+}
+  
+.navbar li {
+    font-family: 'Roboto';
+}
+  
+.navbar a {
+    display: block;
+    color: #E7ECEF;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 16px;
+}
+  
+.navbar a:hover {
+    background-color: #A3CEF1;
+}
+
+h1 {
+    font-family: 'Libre Baskerville';
+    color: #E7ECEF;
+    text-align: center;
+}
+  
+h2 {
+    font-family: 'Libre Baskerville';
+    color: #E7ECEF;
+    text-align: center;
+    font-size: 30px;
+}
+  
+.subheading {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    margin-top: 40px; 
+    margin-bottom: 10px;
+}
+  
+.textarea {
+    width: 90%; 
+    background-color: #E7ECEF; 
+    padding: 20px; 
+    text-align: justify; 
+    border-radius: 10px;
+    text-indent: 50px;
+}
+  
+#technical {
+    width: 90%; 
+    background-color: #E7ECEF; 
+    text-align: justify; 
+    border-radius: 10px;
+}
+  
+  #educational {
+    width: 90%; 
+    background-color: #E7ECEF; 
+    padding: 20px; 
+    text-align: justify; 
+    border-radius: 10px;
+    text-indent: 50px;
+}
+  
+ul.b {
+    list-style-type: circle;
+}
+  
+ul.c {
+    list-style-type: square;
+}
+  
+.work {
+    width: 90%; 
+    background-color: #E7ECEF; 
+    text-align: justify; 
+    border-radius: 10px;
+}
+
+.backtop {
+    text-align: center; 
+    margin-top: 30px;
+}
+  
+.backtop a {
+    padding: 10px 20px; 
+    background-color: #A3CEF1; 
+    color: #274C77; 
+    font-size: 16px; 
+    text-decoration: none; 
+    border-radius: 5px;
+}
+  
+.backtop a:hover {
+    background-color: #6096BA;
+    color: #E7ECEF;
+}
+
+.backhome {
+    text-align: center; 
+    margin-top: 30px;
+}
+  
+.backhome a {
+    padding: 10px 20px; 
+    background-color: #274C77; 
+    color: #E7ECEF; 
+    font-size: 16px; 
+    text-decoration: none; 
+    border-radius: 5px;
+}
+  
+.backhome a:hover {
+    background-color: #6096BA;
+    color: #E7ECEF;
+}
+    
