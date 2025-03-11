@@ -51,7 +51,7 @@ h1 {
 
 .container {
     background: #E7ECEF; 
-    width: 1250px; 
+    width: 1500px; 
     margin: 100px 0 0 300px; 
     padding: 50px; 
     border-radius: 5px; 
@@ -60,35 +60,35 @@ h1 {
     justify-content: center;
   }
 
-.hero-section {
+.section {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-.hero-content {
+.content {
     flex: 1;
 }
   
-.hero-heading {
-    font-size: 60px;
+.heading {
+    font-size: 80px;
     line-height: 1.1;
     color: #274C77;
     margin-bottom: 20px;
     text-align: left;
 }
   
-.hero-description {
-    width: 80%;
+.description {
+    width: 100%;
     color: #274C77;
     margin-bottom: 20px;
     text-align: left;
 }
   
 .profile-image {
-    width: 550px;
-    height: 570px;
+    width: 800px;
+    height: 750px;
     border-radius: 15px;
     object-fit: cover;
-    margin-right: 20px;
+    margin-right: 5px;
 }
