@@ -1,0 +1,70 @@
+body {
+    background-color: #E7ECEF;
+    font-family: 'Roboto';
+    color: #274C77;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Libre Baskerville';
+    color: #E7ECEF;
+    text-align: center;
+}
+
+.subheading {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    margin-top: 40px; 
+    margin-bottom: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adds spacing between images */
+    padding: 20px;
+}
+
+.image-gallery a {
+    display: block;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 4px 4px 8px #222121;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 6px 6px 12px #111; /* Enhanced shadow on hover */
+}
+
+.backhome {
+    text-align: center; 
+    margin-top: 30px;
+}
+  
+.backhome a {
+    padding: 10px 20px; 
+    background-color: #A3CEF1; 
+    color: #274C77; 
+    font-size: 20px;
+    font-weight: bold; 
+    text-decoration: none; 
+    border-radius: 5px;
+}
+  
+.backhome a:hover {
+    background-color: #6096BA;
+    color: #E7ECEF;
+}
+  
