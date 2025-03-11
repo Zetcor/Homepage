@@ -4,31 +4,33 @@ body {
     color: #274C77;
     font-size: 18px;
 }
-    
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #6096BA;
+    background-color: #A3CEF1; 
 }
   
 .navbar li {
     font-family: 'Roboto';
+    font-weight: bold;
 }
   
 .navbar a {
     display: block;
-    color: #E7ECEF;
+    color: #274C77;
     text-align: center;
     padding: 20px 30px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
 }
   
 .navbar a:hover {
-    background-color: #A3CEF1;
+    background-color: #274C77;
+    color: #E7ECEF;
 }
 
 h1 {
@@ -60,6 +62,7 @@ h2 {
     text-align: justify; 
     border-radius: 10px;
     text-indent: 50px;
+    box-shadow: 4px 4px 8px #222121;
 }
   
 #technical {
@@ -67,15 +70,17 @@ h2 {
     background-color: #E7ECEF; 
     text-align: justify; 
     border-radius: 10px;
+    box-shadow: 4px 4px 8px #222121;
 }
   
-  #educational {
+#educational {
     width: 90%; 
     background-color: #E7ECEF; 
     padding: 20px; 
     text-align: justify; 
     border-radius: 10px;
     text-indent: 50px;
+    box-shadow: 4px 4px 8px #222121;
 }
   
 ul.b {
@@ -102,7 +107,8 @@ ul.c {
     padding: 10px 20px; 
     background-color: #A3CEF1; 
     color: #274C77; 
-    font-size: 16px; 
+    font-size: 20px;
+    font-weight: bold; 
     text-decoration: none; 
     border-radius: 5px;
 }
@@ -111,7 +117,27 @@ ul.c {
     background-color: #6096BA;
     color: #E7ECEF;
 }
-
+  
+.backtop2 {
+    text-align: center; 
+    margin-top: 30px;
+}
+  
+.backtop2 a {
+    padding: 10px 20px; 
+    background-color: #A3CEF1; 
+    color: #274C77; 
+    font-size: 20px;
+    font-weight: bold; 
+    text-decoration: none; 
+    border-radius: 5px;
+}
+  
+.backtop2 a:hover {
+    background-color: #274C77;
+    color: #E7ECEF;
+}
+  
 .backhome {
     text-align: center; 
     margin-top: 30px;
@@ -119,9 +145,10 @@ ul.c {
   
 .backhome a {
     padding: 10px 20px; 
-    background-color: #274C77; 
-    color: #E7ECEF; 
-    font-size: 16px; 
+    background-color: #A3CEF1; 
+    color: #274C77; 
+    font-size: 20px;
+    font-weight: bold; 
     text-decoration: none; 
     border-radius: 5px;
 }
