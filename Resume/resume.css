@@ -3,9 +3,15 @@ body {
     font-family: 'Roboto';
     color: #274C77;
     font-size: 18px;
+    margin: 0;
 }
 
-.navbar ul {
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 12px #111;
+}
+
+.navbar1 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,12 +20,12 @@ body {
     background-color: #A3CEF1; 
 }
   
-.navbar li {
+.navbar1 li {
     font-family: 'Roboto';
     font-weight: bold;
 }
   
-.navbar a {
+.navbar1 a {
     display: block;
     color: #274C77;
     text-align: center;
@@ -28,9 +34,42 @@ body {
     font-size: 20px;
 }
   
-.navbar a:hover {
+.navbar1 a:hover {
     background-color: #274C77;
     color: #E7ECEF;
+}
+  
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #274C77;
+}
+  
+.navbar li {
+    font-family: 'Roboto';
+}
+  
+.navbar a {
+    display: block;
+    color: #E7ECEF;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.navbar a:hover {
+    background-color: #A3CEF1;
+    color: #274C77;
 }
 
 h1 {
@@ -111,6 +150,7 @@ ul.c {
     font-weight: bold; 
     text-decoration: none; 
     border-radius: 5px;
+    box-shadow: 4px 4px 8px #222121;
 }
   
 .backtop a:hover {
@@ -131,6 +171,7 @@ ul.c {
     font-weight: bold; 
     text-decoration: none; 
     border-radius: 5px;
+    box-shadow: 4px 4px 8px #222121;
 }
   
 .backtop2 a:hover {
@@ -151,6 +192,7 @@ ul.c {
     font-weight: bold; 
     text-decoration: none; 
     border-radius: 5px;
+    box-shadow: 4px 4px 8px #222121;
 }
   
 .backhome a:hover {
