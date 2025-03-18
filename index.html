@@ -4,6 +4,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://kit.fontawesome.com/022cf77951.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <title>Homepage</title>
   </head>
@@ -11,28 +12,44 @@
     <div>
       <nav class="navbar">
           <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="Biography/biography.html">Biography</a></li>
-              <li><a href="Skills/skills.html">Skills</a></li>
-              <li><a href="Resume/resume.html">Resume</a></li>
-              <li><a href="Photo Gallery Dump/photo.html">Photo Gallery</a>
-              <li><a href="mailto:example@gmail.com">Contact</a>
-              </li>
+            <li><a href="index.html"><i class="fa-solid fa-house-chimney"></i> Home</a></li>
+            <li><a href="../Biography/cortez_biography_itad.html"><i class="fa-solid fa-user"></i> Biography</a></li>
+            <li><a href="../Hobbies/CORTEZ_ITAD_SKILLS.html"><i class="fa-solid fa-book-open"></i> Skills</a></li>
+            <li><a href="../Resume/resume.html"><i class="fa-solid fa-file"></i> Resume</a></li>
+            <li><a href="../Photo Gallery Dump/photo.html"><i class="fa-solid fa-camera"></i> Photo Gallery</a></li>
+            <li><a href="../Music/music.html"><i class="fa-solid fa-music"></i> My Beats</a></li>
+            <li><a href="../Movie/movie.html"><i class="fa-solid fa-film"></i> My Films</a></li>
+            <li><a href="mailto:example@gmail.com"><i class="fa-solid fa-phone"></i> Contact</a></li>
           </ul>
       </nav>
     </div>
 
-    <div class="container">
-      <div class="section">
-        <div class="content">
-            <h1 class="heading">Vince Nicholai J. Cortez</h1>
-              <p class="description">
-                I am an IT student who enjoys exploring technology and finding simple solutions to challenging problems.
-              </p>
-        </div>
-        <img src="vince.png" alt="Vince" class="profile-image">
+    <div class="profile-container">
+      <!-- Left Section: Text + Video -->
+      <div class="left-section">
+          <div class="text-section">
+              <h1>Vince Nicholai Cortez</h1>
+              <p>I am an IT student who enjoys exploring technology and finding simple solutions to challenging problems.</p>
+          </div>
+          <div class="video-container">
+              <video width="640" height="360" controls loop autoplay muted>
+                  <source src="../Homepage/clips/welcome.mp4" type="video/mp4">
+              </video>
+          </div>
       </div>
-    </div>
+  
+      <!-- Right Section: Image -->
+      <div class="image-container">
+          <div class="profile-frame">
+              <img src="vince.png" alt="Vince" class="profile-image">
+          </div>
+      </div>
+  </div>
+  
+  
+  
+
+
 
 </body>
 </html>
