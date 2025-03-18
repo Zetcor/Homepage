@@ -16,6 +16,11 @@ h1 {
     color: #274C77;
 }
 
+p {
+    font-family: 'Roboto';
+    color: #274C77;
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -40,55 +45,68 @@ h1 {
 
 .navbar a:hover {
     background-color: #A3CEF1;
+    color: #274C77;
 }
 
-.name {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translateY(-50%);
-}
-
-.container {
-    background: #E7ECEF; 
-    width: 1500px; 
-    margin: 100px 0 0 300px; 
-    padding: 50px; 
-    border-radius: 5px; 
-    position: absolute; 
-    overflow: hidden;
-    justify-content: center;
-  }
-
-.section {
+/* Flexbox for Layout */
+.profile-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
-  
-.content {
-    flex: 1;
+    justify-content: center;
+    gap: 100px; /* Space between left and right sections */
+    margin-top: 100px;
 }
-  
-.heading {
-    font-size: 80px;
-    line-height: 1.1;
-    color: #274C77;
-    margin-bottom: 20px;
+
+/* Left Section: Text & Video stacked */
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between text and video */
+}
+
+/* Styling Text Section */
+.text-section {
+    background: #E7ECEF;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
     text-align: left;
 }
-  
-.description {
-    width: 100%;
-    color: #274C77;
-    margin-bottom: 20px;
-    text-align: left;
+
+/* Centers and styles the Video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 25px;
 }
-  
+
+/* Right Section: Profile Image */
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-frame {
+    width: 650px;
+    height: 650px;
+    background-color: #274C77;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .profile-image {
-    width: 800px;
-    height: 750px;
-    border-radius: 15px;
+    width: 600px;
+    height: 600px;
     object-fit: cover;
-    margin-right: 5px;
+    border: 6px solid #E7ECEF;
 }
+
+
+
+
