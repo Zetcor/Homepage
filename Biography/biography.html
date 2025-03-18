@@ -4,23 +4,32 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="cortez_biography_itad.css">
+    <script src="https://kit.fontawesome.com/022cf77951.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <style type="text/css">
-      body {
-      background-color: #E7ECEF;
-      font-family: 'Roboto';
-      font-size: 18px;
-      }
-    </style>
     <title>Biography</title>
   </head>
   <body>
+    <div>
+      <nav class="navbar">
+          <ul>
+            <li><a href="../Homepage/index.html"><i class="fa-solid fa-house-chimney"></i> Home</a></li>
+            <li><a href="cortez_biography_itad.html"><i class="fa-solid fa-user"></i> Biography</a></li>
+            <li><a href="../Hobbies/CORTEZ_ITAD_SKILLS.html"><i class="fa-solid fa-book-open"></i> Skills</a></li>
+            <li><a href="../Resume/resume.html"><i class="fa-solid fa-file"></i> Resume</a></li>
+            <li><a href="../Photo Gallery Dump/photo.html"><i class="fa-solid fa-camera"></i> Photo Gallery</a></li>
+            <li><a href="../Music/music.html"><i class="fa-solid fa-music"></i> My Beats</a></li>
+            <li><a href="../Movie/movie.html"><i class="fa-solid fa-film"></i> My Films</a></li>
+            <li><a href="mailto:example@gmail.com"><i class="fa-solid fa-phone"></i> Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+
     <div id="title" style="width: 70.5%; background-color: #274C77; text-align: center; padding: 5px; color: white; justify-content: center; margin: auto; border-radius: 10px; margin-top: 20px; margin-bottom: 30px; box-shadow: 4px 4px 8px #222121;">
       <h1 style="text-transform: uppercase;">Through the Change</h1>
     </div>
 
-    <div style="width: 70.5%; background-color: #A3CEF1; text-align: center; padding: 5px; color: white; justify-content: center; margin: auto; border-radius: 10px; margin-top: 20px; margin-bottom: 30px;">
-      <nav class="navbar">
+    <div style="width: 70.5%; background-color: #A3CEF1; text-align: center; padding: 5px; color: white; justify-content: center; margin: auto; border-radius: 10px; margin-top: 20px; margin-bottom: 30px; box-shadow: 4px 4px 8px #222121;">
+      <nav class="navbar1">
           <ul>
               <li><a href="#Childhood">Childhood Years</a></li>
               <li><a href="#Teenage">Teenage Years</a></li>
@@ -31,9 +40,11 @@
     
     <div id="Childhood" style="width: 70%; background-color: #274C77; border-radius: 10px; justify-content: center; margin: auto; padding: 10px; padding-bottom: 40px; margin-bottom: 30px; box-shadow: 4px 4px 8px #222121;">
       
-      <img src="../Images/mechild.JPG" alt="Childhood Me" 
-            style="max-width: 500px; height: 400px; border-radius: 15px; box-shadow: 4px 4px 8px #222121; display: block; margin: auto;">
-      
+      <a href="../Homepage/Images/mechild.JPG" target="display">
+        <img src="../Homepage/Images/mechild.JPG" alt="Childhood Me" title="Picture of me when I was a kid"
+              style="max-width: 500px; height: 400px; border-radius: 15px; box-shadow: 4px 4px 8px #222121; display: block; margin: auto; margin-top: 20px; margin-bottom: 25px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+      </a>
+
       <div class="subheading">
           <hr style="flex: 1; max-width: 320px; border: none; height: 2px; background-color: #E7ECEF; margin-right: 20px;">
           <h2 style="margin: 0;">Childhood Years</h2>
@@ -41,14 +52,19 @@
       </div> 
 
       <div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
-        <img src="../Images/psp.jpg" alt="PlayStation Portable" 
-            style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121;">
-        
-        <img src="../Images/transformers.jpg" alt="Transformers Toys" 
-            style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121;">
-        
-        <img src="../Images/outside.jpg" alt="Outdoor Play" 
-            style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121;">
+        <a href="../Homepage/Images/psp.jpg" target="display">
+          <img src="../Homepage/Images/psp.jpg" alt="PlayStation Portable" title="A picture of a PSP"
+              style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        </a> 
+        <a href="../Homepage/Images/transformers.jpg" target="display">
+          <img src="../Homepage/Images/transformers.jpg" alt="Transformers Toys" title="A picture of Transformers toys"
+              style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          
+        </a> 
+        <a href="../Homepage/Images/outside.jpg" target="display">
+          <img src="../Homepage/Images/outside.jpg" alt="Outdoor Play" title="A picture of children playing outside"
+              style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        </a> 
       </div>
     
       
@@ -90,15 +106,17 @@
           </div>
       </div>
       <div class="backtop">
-        <a href="#title">Back to Top</a>
+        <a href="#title"><i class="fa-solid fa-arrow-up"></i> Back to Top</a>
       </div>
     </div>
     
     <div id="Teenage" style="width: 70%; background-color: #6096BA; border-radius: 10px; justify-content: center; margin: auto; padding: 10px; padding-bottom: 40px; margin-bottom: 30px; box-shadow: 4px 4px 8px #222121;">
       
-      <img src="../Images/meteenager.jpeg" alt="Teenager Me" 
-            style="max-width: 600px; height: 400px; border-radius: 15px; box-shadow: 4px 4px 8px #222121; display: block; margin: auto;">
-      
+      <a href="../Homepage/Images/meteenager.jpeg" target="display">
+        <img src="../Homepage/Images/meteenager.jpeg" alt="Teenager Me" title="a picture of me in my teenage days"
+              style="max-width: 600px; height: 400px; border-radius: 15px; box-shadow: 4px 4px 8px #222121; display: block; margin: auto; margin-top: 20px; margin-bottom: 25px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+      </a>
+
       <div class="subheading">
           <hr style="flex: 1; max-width: 330px; border: none; height: 2px; background-color: #E7ECEF; margin-right: 20px;">
           <h2 style="margin: 0;">Teenage Years</h2>
@@ -106,14 +124,18 @@
       </div> 
 
       <div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
-        <img src="../Images/ps4.jpg" alt="PlayStation 4" 
-            style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121;">
-        
-        <img src="../Images/op.jpg" alt="One Piece" 
-            style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121;">
-        
-        <img src="../Images/comp.jpg" alt="Computer" 
-            style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121;">
+        <a href="../Homepage/Images/ps4.jpg" target="display">
+          <img src="../Homepage/Images/ps4.jpg" alt="PlayStation 4" title="A picture of a PS4"
+              style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        </a>  
+        <a href="../Homepage/Images/op.jpg" target="display">
+          <img src="../Homepage/Images/op.jpg" alt="One Piece" title="A picture of One Piece Characters"
+              style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        </a>  
+        <a href="../Homepage/Images/comp.jpg" target="display">
+          <img src="../Homepage/Images/comp.jpg" alt="Computer" title="A picture of a man fixing a PC"
+              style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        </a>
       </div>
       
       <div style="display: flex; justify-content: center; align-items: center; height: auto;">
@@ -143,14 +165,16 @@
           </div>
       </div>
       <div class="backtop2">
-        <a href="#title">Back to Top</a>
+        <a href="#title"><i class="fa-solid fa-arrow-up"></i> Back to Top</a>
       </div>
     </div>
 
     <div id="College"style="width: 70%; background-color: #274C77; border-radius: 10px; justify-content: center; margin: auto; padding: 10px; padding-bottom: 40px; margin-bottom: 30px; box-shadow: 4px 4px 8px #222121;">
       
-      <img src="../Images/mecolllege.jpg" alt="College Me" 
-            style="max-width: 600px; height: 400px; border-radius: 15px; box-shadow: 4px 4px 8px #222121; display: block; margin: auto;">
+      <a href="../Homepage/Images/mecolllege.jpg" target="display">
+        <img src="../Homepage/Images/mecolllege.jpg" alt="College Me" title="A picture of me in College"
+              style="max-width: 600px; height: 400px; border-radius: 15px; box-shadow: 4px 4px 8px #222121; display: block; margin: auto; margin-top: 20px; margin-bottom: 25px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+      </a>
 
       <div class="subheading">
           <hr style="flex: 1; max-width: 335px; border: none; height: 2px; background-color: #E7ECEF; margin-right: 20px;">
@@ -159,14 +183,19 @@
       </div> 
 
       <div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap;">
-        <img src="../Images/ue.jpg" alt="University of the East" 
-            style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121;">
-        
-        <img src="../Images/it.jpg" alt="Information Technology" 
-            style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121;">
-        
-        <img src="../Images/prog.jpg" alt="Programming" 
-            style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121;">
+
+        <a href="../Homepage/Images/ue.jpg" target="display">
+          <img src="../Homepage/Images/ue.jpg" alt="University of the East" title="A picture of UE's Logo"
+              style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        </a>  
+        <a href="../Homepage/Images/it.jpg" target="display">
+          <img src="../Homepage/Images/it.jpg" alt="Information Technology" title="A picture of two connected laptops"
+              style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        </a>  
+        <a href="../Homepage/Images/prog.jpg" target="display">
+          <img src="../Homepage/Images/prog.jpg" alt="Programming" title="A picture of a code fragment"
+              style="max-width: 200px; height: 200px; border-radius: 15px; margin-bottom: 20px; box-shadow: 4px 4px 8px #222121; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        </a>
       </div>
       
       <div style="display: flex; justify-content: center; align-items: center; height: auto;">
@@ -196,11 +225,11 @@
           </div>
       </div>
       <div class="backtop">
-        <a href="#title">Back to Top</a>
+        <a href="#title"><i class="fa-solid fa-arrow-up"></i> Back to Top</a>
       </div>
     </div>
     <div class="backhome">
-      <a href="../index.html">Back to Home</a>
+      <a href="../Homepage/index.html"><i class="fa-solid fa-house-chimney"></i> Back to Home</a>
     </div>
   </body>
 </html>
