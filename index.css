@@ -43,6 +43,10 @@ p {
     font-size: 20px;
 }
 
+.navbar a.active {
+    border-bottom: 4px solid #E7ECEF;
+}
+
 .navbar a:hover {
     background-color: #A3CEF1;
     color: #274C77;
@@ -106,11 +110,3 @@ p {
     object-fit: cover;
     border: 6px solid #E7ECEF;
 }
-
-.active {
-    border-bottom: 4px solid #E7ECEF;
-}
-
-
-
-
