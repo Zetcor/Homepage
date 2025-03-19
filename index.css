@@ -107,6 +107,10 @@ p {
     border: 6px solid #E7ECEF;
 }
 
+.active {
+    border-bottom: 4px solid #E7ECEF;
+}
+
 
 
 
