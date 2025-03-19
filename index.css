@@ -44,7 +44,7 @@ p {
 }
 
 .navbar a.active {
-    border-bottom: 4px solid #E7ECEF;
+    border-bottom: 1px solid #E7ECEF;
     padding: 0;
 }
 
