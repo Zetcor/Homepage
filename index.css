@@ -45,6 +45,7 @@ p {
 
 .navbar a.active {
     border-bottom: 4px solid #E7ECEF;
+    padding: 0;
 }
 
 .navbar a:hover {
