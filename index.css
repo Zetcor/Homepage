@@ -13,14 +13,24 @@ h1 {
     font-family: 'Libre Baskerville';
     text-align: center;
     font-size: 75px;
-    color: #274C77;
+    color: #0F1E2E;
 }
 
 p {
     font-family: 'Roboto';
-    color: #274C77;
+    color: #0F1E2E;
 }
 
+.navbar a.active {
+    border-bottom: 3px solid #E7ECEF;
+}
+  
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -29,11 +39,11 @@ p {
     justify-content: center;
     background-color: #274C77;
 }
-
+  
 .navbar li {
     font-family: 'Roboto';
 }
-
+  
 .navbar a {
     display: block;
     color: #E7ECEF;
@@ -42,29 +52,27 @@ p {
     text-decoration: none;
     font-size: 20px;
 }
-
+  
 .navbar a:hover {
-    background-color: #A3CEF1;
+    background-color: #A2CDF1;
     color: #274C77;
+    border-bottom: 3px solid #274C77;
 }
 
-/* Flexbox for Layout */
 .profile-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px; /* Space between left and right sections */
+    gap: 100px;
     margin-top: 100px;
 }
 
-/* Left Section: Text & Video stacked */
 .left-section {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Space between text and video */
+    gap: 20px;
 }
 
-/* Styling Text Section */
 .text-section {
     background: #E7ECEF;
     padding: 20px;
@@ -73,7 +81,6 @@ p {
     text-align: left;
 }
 
-/* Centers and styles the Video */
 .video-container {
     display: flex;
     justify-content: center;
@@ -82,7 +89,6 @@ p {
     margin-top: 25px;
 }
 
-/* Right Section: Profile Image */
 .image-container {
     display: flex;
     align-items: center;
