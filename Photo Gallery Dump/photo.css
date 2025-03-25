@@ -12,6 +12,27 @@ h1 {
     text-align: center;
 }
 
+.section {
+    width: 70%; 
+    background-color: #A2CDF1; 
+    border-radius: 10px; 
+    margin: auto; 
+    padding: 10px; 
+    padding-bottom: 40px; 
+    margin-bottom: 30px; 
+    box-shadow: 4px 4px 8px #222121;
+}
+
+.navbar a.active {
+    border-bottom: 3px solid #E7ECEF;
+}
+  
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -20,11 +41,11 @@ h1 {
     justify-content: center;
     background-color: #274C77;
 }
-
+  
 .navbar li {
     font-family: 'Roboto';
 }
-
+  
 .navbar a {
     display: block;
     color: #E7ECEF;
@@ -33,10 +54,11 @@ h1 {
     text-decoration: none;
     font-size: 20px;
 }
-
+  
 .navbar a:hover {
-    background-color: #A3CEF1;
+    background-color: #A2CDF1;
     color: #274C77;
+    border-bottom: 3px solid #274C77;
 }
 
 .subheading {
@@ -50,46 +72,50 @@ h1 {
 
 .image-gallery {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; /* Space between rows */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Ensures even spacing */
+    width: 80%; 
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 25px;
 }
 
-.row {
+.image-gallery .row {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Space between images */
+    gap: 50px; 
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-.row a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.row img {
-    width: 200px;
-    height: 200px;
+.image-gallery img {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
     border-radius: 15px;
     box-shadow: 4px 4px 8px #222121;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0.9;
 }
 
-.row img:hover {
+.image-gallery img:hover {
     transform: scale(1.1);
-    box-shadow: 6px 6px 12px #111;
+    box-shadow: 4px 4px 8px #222121;
+    opacity: 1;
+    border: 2px solid #0F1E2E; /* Corrected */
 }
-
-
+  
 .backhome {
-    text-align: center; 
+    text-align: right; 
     margin-top: 30px;
+    margin-right: 270px;
+    margin-bottom: 30px;
 }
   
 .backhome a {
     padding: 10px 20px; 
-    background-color: #A3CEF1; 
-    color: #274C77; 
+    background-color: #A2CDF1; 
+    color: #0F1E2E; 
     font-size: 20px;
     font-weight: bold; 
     text-decoration: none; 
@@ -98,7 +124,7 @@ h1 {
 }
   
 .backhome a:hover {
-    background-color: #6096BA;
+    background-color: #274C77;
     color: #E7ECEF;
 }
   
